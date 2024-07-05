@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manish_patel_harnesscd_example_apps_1720178671454-push-trigger-input-set
+  identifier: Build_manish_patel_harnesscd_example_apps_1720178671454pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manish_patel_harnesscd_example_apps_1720178671454
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
