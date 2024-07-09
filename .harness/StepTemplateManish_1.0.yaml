@@ -1,0 +1,12 @@
+template:
+  name: StepTemplate-Manish
+  identifier: StepTemplateManish
+  versionLabel: "1.0"
+  type: Step
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Run
+    spec:
+      shell: Sh
+      command: echo 'StepTemplate-Manish'
